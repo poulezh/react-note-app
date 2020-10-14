@@ -9,6 +9,8 @@ import {FirebaseState} from './context/firebase/FirebaseState'
 import { Pogoda } from './components/Pogoda';
 
 
+
+
 function App() {
   return (
     <FirebaseState>
@@ -24,6 +26,7 @@ function App() {
             </Switch>
           </div>
           <Pogoda/>
+       
         </BrowserRouter>
       </AlertState>
     </FirebaseState>
